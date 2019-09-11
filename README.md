@@ -24,4 +24,5 @@ RecyclerView_App_New
 
 A special thanks to the authors involved with these two repositories, they were a great resource during our learning!
 
-#    https://github.com/sainalsultan/ArticleApplication
+
+https://github.com/sainalsultan/ArticleApplication
