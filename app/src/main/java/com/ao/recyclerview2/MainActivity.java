@@ -1,6 +1,7 @@
 package com.ao.recyclerview2;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -49,12 +50,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		switch (view.getId()){
 			case R.id.btHome :
 				loadFragment(new HomeFragment());
+				Log.e("TAG", "onClick: " );
 				break;
 			case R.id.btFavorite:
 				loadFragment(new FavoriteFragment());
+				Log.e("TAG", "onClick: " );
 				break;
 			case R.id.btAccount :
 				loadFragment(new AccountFragment());
+				Log.e("TAG", "onClick: " );
 				break;
 		}
 	}
